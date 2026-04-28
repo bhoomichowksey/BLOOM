@@ -64,7 +64,7 @@
 
 ```bash
 git clone https://github.com/bhoomichowksey/BLOOM
-cd ALVORA
+cd BLOOM
 npm install
 npm run dev
 ```
