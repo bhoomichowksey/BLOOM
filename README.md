@@ -47,7 +47,7 @@
 |----------|------|
 | 🌐 Live Prototype | https://v0-women-s-health-app-delta.vercel.app |
 | 🎥 Demo Video | **[https://youtu.be/1wlgOrHD1m0?si=v4yUzGQlLuTJyjnf]** |
-| 📊 Project Deck | **[PASTE YOUR GOOGLE SLIDES / PDF LINK HERE]** |
+| 📊 Project Deck | **[https://drive.google.com/file/d/1yL3evyZ_35ZJrYd1UvYZhSjnQZcQFNkA/view?usp=sharing]** |
 
 ---
 
