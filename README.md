@@ -63,7 +63,7 @@
 ## 📌 How to Run Locally
 
 ```bash
-git clone https://github.com/bhoomichowksey/ALVORA
+git clone https://github.com/bhoomichowksey/BLOOM
 cd ALVORA
 npm install
 npm run dev
