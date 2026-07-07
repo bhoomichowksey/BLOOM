@@ -1,4 +1,5 @@
 import { convertToModelMessages, streamText, UIMessage } from 'ai'
+import { google } from '@ai-sdk/google'
 import { createClient } from '@/lib/supabase/server'
 
 export const maxDuration = 30
