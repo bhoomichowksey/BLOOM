@@ -1,11 +1,13 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Mail } from 'lucide-react'
 import Link from 'next/link'
+import { GlowHeart } from '@/components/glow-heart'
 
 export default function SignUpSuccessPage() {
   return (
-    <main className="min-h-screen flex items-center justify-center p-4">
-      <Card className="w-full max-w-md text-center">
+    <main className="relative min-h-screen flex items-center justify-center p-4 overflow-hidden">
+      <GlowHeart className="absolute inset-0" />
+      <Card className="relative z-10 w-full max-w-md text-center">
         <CardHeader>
           <div className="flex justify-center mb-4">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
