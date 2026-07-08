@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Heart, Calendar, Smile, MessageCircle, Shield, Sparkles } from 'lucide-react'
+import { GlowHeart } from '@/components/glow-heart'
 
 export default function HomePage() {
   return (
@@ -29,8 +30,9 @@ export default function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 md:py-32">
-        <div className="container max-w-6xl mx-auto px-4 text-center">
+      <section className="relative overflow-hidden py-20 md:py-32">
+        <GlowHeart className="absolute inset-0" />
+        <div className="relative z-10 container max-w-6xl mx-auto px-4 text-center">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
             <Sparkles className="w-4 h-4" />
             Your Personal Wellness Companion
